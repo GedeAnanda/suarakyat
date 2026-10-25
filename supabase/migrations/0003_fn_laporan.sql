@@ -1,0 +1,15 @@
+-- 0003_fn_laporan.sql  (pemilik: B)
+-- Acuan: SDD v1.0 bagian 6.3. Semua fungsi: security definer, set search_path = public,
+-- error dengan: raise exception '<KODE>' using errcode = 'P0001';
+--
+-- TODO:
+-- [ ] stats_beranda()                         -> R1
+-- [ ] similar_reports(category, lat, lng)     -> R2
+-- [ ] create_report(...)                      -> R3
+-- [ ] toggle_upvote(kode)                     -> R4
+-- [ ] cancel_report(kode)                     -> R5
+-- [ ] update_report_status(...)               -> R6
+-- [ ] rate_report(kode, nilai, komentar)      -> R7
+-- [ ] save_weights(bobot jsonb, alasan)       -> R10
+-- [ ] reset_demo_data()                       -> R11 (hanya service_role)
+-- [ ] revoke execute ... from public; grant execute sesuai SDD 5.3

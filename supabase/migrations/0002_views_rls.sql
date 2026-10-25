@@ -1,0 +1,12 @@
+-- 0002_views_rls.sql  (pemilik: B)
+-- Acuan: SDD v1.0 bagian 4.3 (view) dan 5 (keamanan).
+--
+-- TODO:
+-- [ ] Fungsi bantu: is_admin(), my_instansi(), is_perencana()  -- security definer stable
+-- [ ] alter table ... enable row level security; untuk SEMUA tabel public
+-- [ ] Kebijakan RLS sesuai matriks SDD 5.2
+-- [ ] View v_laporan_publik   (sembunyikan isi 'konten_melanggar', tanpa status 'dibatalkan')
+-- [ ] View v_timeline_publik  (tanpa admin_id)
+-- [ ] View v_riwayat_bobot    (tanpa admin_id)
+-- [ ] View v_laporan_admin    with (security_invoker = true)
+-- [ ] Kebijakan Storage untuk bucket foto-laporan dan bukti (SDD 5.4)

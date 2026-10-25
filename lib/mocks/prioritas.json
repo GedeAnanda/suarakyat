@@ -1,0 +1,150 @@
+{
+  "sumber": "simulasi",
+  "waktu_acuan": "2026-11-01T00:00:00+07:00",
+  "isu": [
+    {
+      "id": "1-1",
+      "kode_wilayah": "31.00.01",
+      "kecamatan": "Contoh A",
+      "kota": "Jakarta Selatan",
+      "category_id": 1,
+      "kategori": "Jalan rusak",
+      "laporan_aktif": 6,
+      "laporan_terverifikasi": 4,
+      "mentah": {
+        "urgensi": 1,
+        "volume": 1.8,
+        "dukungan": 3.2,
+        "umur": 1.35,
+        "kerentanan": 3.4,
+        "kepadatan": 21500
+      }
+    },
+    {
+      "id": "2-1",
+      "kode_wilayah": "31.00.02",
+      "kecamatan": "Contoh B",
+      "kota": "Jakarta Timur",
+      "category_id": 1,
+      "kategori": "Jalan rusak",
+      "laporan_aktif": 4,
+      "laporan_terverifikasi": 3,
+      "mentah": {
+        "urgensi": 1,
+        "volume": 1.1,
+        "dukungan": 0.9,
+        "umur": 0.6,
+        "kerentanan": 4.1,
+        "kepadatan": 14800
+      }
+    },
+    {
+      "id": "3-2",
+      "kode_wilayah": "31.00.03",
+      "kecamatan": "Contoh C",
+      "kota": "Jakarta Utara",
+      "category_id": 2,
+      "kategori": "Saluran tersumbat",
+      "laporan_aktif": 5,
+      "laporan_terverifikasi": 4,
+      "mentah": {
+        "urgensi": 1,
+        "volume": 2.4,
+        "dukungan": 1.5,
+        "umur": 1.7,
+        "kerentanan": 5.6,
+        "kepadatan": 17200
+      }
+    },
+    {
+      "id": "4-3",
+      "kode_wilayah": "31.00.04",
+      "kecamatan": "Contoh D",
+      "kota": "Jakarta Barat",
+      "category_id": 3,
+      "kategori": "Sampah menumpuk",
+      "laporan_aktif": 7,
+      "laporan_terverifikasi": 6,
+      "mentah": {
+        "urgensi": 0.6,
+        "volume": 2.9,
+        "dukungan": 4.8,
+        "umur": 0.9,
+        "kerentanan": 4,
+        "kepadatan": 26100
+      }
+    },
+    {
+      "id": "5-4",
+      "kode_wilayah": "31.00.05",
+      "kecamatan": "Contoh E",
+      "kota": "Jakarta Pusat",
+      "category_id": 4,
+      "kategori": "Lampu jalan mati",
+      "laporan_aktif": 2,
+      "laporan_terverifikasi": 1,
+      "mentah": {
+        "urgensi": 0.6,
+        "volume": 0.5,
+        "dukungan": 0.2,
+        "umur": 1.2,
+        "kerentanan": 3.2,
+        "kepadatan": 19800
+      }
+    },
+    {
+      "id": "6-3",
+      "kode_wilayah": "31.00.06",
+      "kecamatan": "Contoh F",
+      "kota": "Jakarta Utara",
+      "category_id": 3,
+      "kategori": "Sampah menumpuk",
+      "laporan_aktif": 3,
+      "laporan_terverifikasi": 2,
+      "mentah": {
+        "urgensi": 0.6,
+        "volume": 0.8,
+        "dukungan": 0.6,
+        "umur": 1.9,
+        "kerentanan": 5.6,
+        "kepadatan": 12400
+      }
+    },
+    {
+      "id": "7-2",
+      "kode_wilayah": "31.00.07",
+      "kecamatan": "Contoh G",
+      "kota": "Jakarta Timur",
+      "category_id": 2,
+      "kategori": "Saluran tersumbat",
+      "laporan_aktif": 2,
+      "laporan_terverifikasi": 2,
+      "mentah": {
+        "urgensi": 1,
+        "volume": 0.7,
+        "dukungan": 2.1,
+        "umur": 0.4,
+        "kerentanan": 4.1,
+        "kepadatan": 15600
+      }
+    },
+    {
+      "id": "8-1",
+      "kode_wilayah": "31.00.08",
+      "kecamatan": "Contoh H",
+      "kota": "Jakarta Barat",
+      "category_id": 1,
+      "kategori": "Jalan rusak",
+      "laporan_aktif": 1,
+      "laporan_terverifikasi": 0,
+      "mentah": {
+        "urgensi": 1,
+        "volume": 0,
+        "dukungan": 0,
+        "umur": 2,
+        "kerentanan": 4,
+        "kepadatan": 9800
+      }
+    }
+  ]
+}

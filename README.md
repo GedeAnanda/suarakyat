@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# suaRAkyat
 
-## Getting Started
+Platform web transparansi keputusan publik: warga melapor masalah kota, melacak penanganannya, dan bisa melihat serta menguji kenapa sebuah masalah didahulukan. Dibuat untuk lomba Web in Action (WIA) MIA 2026.
 
-First, run the development server:
+## Tech stack
+
+- **Frontend:** Next.js (App Router), TypeScript, Tailwind CSS
+- **Backend dan database:** Supabase (Postgres + PostGIS, Auth, Storage, RPC)
+- **Peta dan grafik:** Leaflet + OpenStreetMap, Recharts
+- **Hosting:** Vercel (termasuk Vercel Cron)
+- **Skrip data:** Python (pandas, geopandas)
+
+## Cara menjalankan
 
 ```bash
+git clone https://github.com/<akun-ketua>/suarakyat.git
+cd suarakyat
+npm install
+cp .env.example .env.local   # isi nilainya; minta ke ketua tim
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Untuk menyiapkan database dari nol:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Jalankan file di `supabase/migrations/` berurutan (`0001` sampai `0005`) lewat SQL editor Supabase atau `supabase db push`.
+2. Jalankan skrip data dan seed sesuai `scripts/README.md`.
 
-## Learn More
+Tes modul skor: `npm test`.
 
-To learn more about Next.js, take a look at the following resources:
+## Progress saat ini
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- Perbarui bagian ini sebelum First Draft Submission (1 November 2026) -->
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [x] Repo dan struktur proyek
+- [x] Skema database awal (`0001_schema.sql`)
+- [x] Kontrak data bersama (`lib/types.ts`) dan data contoh untuk frontend
+- [ ] Deploy pertama ke Vercel
+- [ ] Auth, RLS, dan akun demo
+- [ ] Landing page
+- [ ] Peta publik dengan data seed
+- [ ] Form laporan dan halaman lacak
+- [ ] Halaman admin
+- [ ] Rapor Instansi
+- [ ] Dashboard Prioritas, simulator bobot, dan "Kenapa belum?"
 
-## Deploy on Vercel
+## Tim
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Nama | Peran |
+| --- | --- |
+| (isi) | A · Frontend & Desain |
+| (isi) | B · Backend & Integrasi (ketua) |
+| (isi) | C · Data & Skor |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Dokumen
+
+- `docs/suaRAkyat_PRD_v0.3.pdf`: kebutuhan produk (apa dan kenapa)
+- `docs/suaRAkyat_SDD_v1.0.pdf`: desain teknis (bagaimana)
+- `CONTRIBUTING.md`: aturan kerja tim
+
+Versi terbaru kedua dokumen ada di link dokumen online tim; PDF di folder `docs/` adalah salinan.
+
+## Data
+
+Sebagian data di aplikasi ini adalah **data simulasi** dan diberi label di setiap halaman. Sumber dan lisensi data nyata tercantum di halaman Sumber Data aplikasi.

@@ -1,0 +1,8 @@
+-- 0005_fn_prioritas.sql  (pemilik: C)
+-- Acuan: SDD v1.0 bagian 8.2 dan PRD v0.3 bagian 9.
+--
+-- TODO:
+-- [ ] priority_factors(p_category_id smallint default null, p_sumber text default 'simulasi') returns jsonb
+--     Hanya NILAI MENTAH; normalisasi dan bobot dihitung di lib/scoring.
+--     Bentuk keluaran WAJIB sama dengan tipe PriorityFactorsResponse di lib/types.ts
+-- [ ] grant execute ke anon dan authenticated

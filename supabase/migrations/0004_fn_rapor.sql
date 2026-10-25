@@ -1,0 +1,7 @@
+-- 0004_fn_rapor.sql  (pemilik: C)
+-- Acuan: SDD v1.0 bagian 8.1 dan PRD v0.3 bagian 8.
+--
+-- TODO:
+-- [ ] agency_report_card(p_dari date default null, p_sampai date default null) returns jsonb
+--     Bentuk keluaran WAJIB sama dengan tipe RaporResponse di lib/types.ts
+-- [ ] grant execute ke anon dan authenticated

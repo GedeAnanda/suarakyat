@@ -1,0 +1,7 @@
+pandas
+geopandas
+shapely
+numpy
+python-dotenv
+psycopg[binary]
+supabase

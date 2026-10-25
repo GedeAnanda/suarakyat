@@ -1,0 +1,113 @@
+{
+  "periode": {
+    "dari": "2026-05-05",
+    "sampai": "2026-11-01"
+  },
+  "is_simulated": true,
+  "instansi": [
+    {
+      "id": 1,
+      "nama": "Dinas Bina Jalan (simulasi)",
+      "sampel": 118,
+      "R": 0.95,
+      "S": 0.85,
+      "P": 0.86,
+      "K": 0.84,
+      "nilai": 88,
+      "huruf_asli": "A",
+      "huruf": "A",
+      "tingkat_penolakan": 0.05,
+      "peringatan_penolakan": false,
+      "median_respons_jam": 6.5,
+      "terlambat_aktif": 4,
+      "keberatan_diterima": 0,
+      "per_kategori": [
+        {
+          "kategori": "Jalan rusak",
+          "sampel": 118,
+          "R": 0.95,
+          "S": 0.85,
+          "P": 0.86
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nama": "Dinas Tata Air (simulasi)",
+      "sampel": 74,
+      "R": 0.52,
+      "S": 0.36,
+      "P": 0.58,
+      "K": 0.57,
+      "nilai": 49.4,
+      "huruf_asli": "D",
+      "huruf": "D",
+      "tingkat_penolakan": 0.06,
+      "peringatan_penolakan": false,
+      "median_respons_jam": 31,
+      "terlambat_aktif": 27,
+      "keberatan_diterima": 0,
+      "per_kategori": [
+        {
+          "kategori": "Saluran tersumbat",
+          "sampel": 74,
+          "R": 0.52,
+          "S": 0.36,
+          "P": 0.58
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nama": "Dinas Kebersihan (simulasi)",
+      "sampel": 95,
+      "R": 0.84,
+      "S": 0.63,
+      "P": 0.72,
+      "K": 0.75,
+      "nilai": 73.5,
+      "huruf_asli": "B",
+      "huruf": "B",
+      "tingkat_penolakan": 0.1,
+      "peringatan_penolakan": false,
+      "median_respons_jam": 9.5,
+      "terlambat_aktif": 12,
+      "keberatan_diterima": 0,
+      "per_kategori": [
+        {
+          "kategori": "Sampah menumpuk",
+          "sampel": 95,
+          "R": 0.84,
+          "S": 0.63,
+          "P": 0.72
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nama": "Dinas Penerangan Jalan (simulasi)",
+      "sampel": 41,
+      "R": 0.96,
+      "S": 0.9,
+      "P": 0.88,
+      "K": 0.89,
+      "nilai": 91.2,
+      "huruf_asli": "A",
+      "huruf": "C",
+      "tingkat_penolakan": 0.32,
+      "peringatan_penolakan": true,
+      "median_respons_jam": 4,
+      "terlambat_aktif": 1,
+      "keberatan_diterima": 0,
+      "per_kategori": [
+        {
+          "kategori": "Lampu jalan mati",
+          "sampel": 41,
+          "R": 0.96,
+          "S": 0.9,
+          "P": 0.88
+        }
+      ]
+    }
+  ]
+}
